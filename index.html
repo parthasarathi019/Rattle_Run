@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <!-- font-awesome kit -->
+    <script src="https://kit.fontawesome.com/efa78af784.js" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="game-container"></canvas>
+        <div class="btn-container">
+            <div class="flex flex-col">
+                <button id="btnUp" class="fa-solid fa-chevron-up"></button>
+                <div class="flex flex-row">
+                    <button id="btnLeft" class="fa-solid fa-chevron-left"></button>
+                    <div class="play-repeat">
+                        <button id="btnPlay" class="fa-solid fa-play"></button>
+                        <button id="btnRepeat" class="fa-solid fa-repeat hidden"></button>
+                    </div>
+                    <button id="btnRight" class="fa-solid fa-chevron-right"></button>
+                </div>
+                <button id="btnDown" class="fa-solid fa-chevron-down"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- custom js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
